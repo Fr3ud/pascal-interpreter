@@ -41,7 +41,7 @@ class Interpreter(object):
             result += self.current_char
             self.advance()
 
-            return int(result)
+        return int(result)
     
     def get_next_token(self):
         while self.current_char is not None:
